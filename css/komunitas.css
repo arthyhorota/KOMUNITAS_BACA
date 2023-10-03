@@ -1,0 +1,166 @@
+*{
+	margin: 0;
+}
+/*============= bagian komunitas ============*/
+.container{
+	background-color: ;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.komunitas-item{
+	display: flex;
+	justify-content: center;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.komunitas h2{
+	text-align: center;
+	font-family: 'Roboto Serif', serif;
+	font-size: 28px;
+}
+.komunitas hr{
+	width: 60%;
+	height: 3px;
+	margin: 19px auto 45px;
+	background-color: black;
+	border: none;
+	border-radius: 5px;
+}
+.komunitas-item .isi{
+	border-radius: 10px;
+	box-shadow: 0 0 5px #999999;
+	margin: 20px;
+	padding: 5px 15px 5px 15px;
+	text-align: center;
+	cursor: pointer;
+	width: 300px;
+	height: 365px;
+}
+.isi-item h4{
+	font-family: 'Roboto Serif', serif;
+	color: black;
+}
+.isi-item p{
+	padding-top: 15px;
+	text-align: justify;
+	font-family: 'Roboto Serif', serif;
+	
+}
+
+.isi-item{
+	/*tinggi untuk isi dari class isi-item*/
+	height: 290px;
+}
+.join{
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+.join a{
+	background-color: #2e74b4;
+	border-radius: 10px;
+	border: none;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	width: 100px;
+	height: 19px;
+	font-family: 'Roboto Serif', serif;
+
+
+}
+.join a:hover{
+	background-color: #3d85c6;
+}
+.isi-item .icon{
+	color: #318CE7;
+	margin-bottom: 15px;
+}
+/*bagian hover*/
+.komunitas-item .isi:hover{
+	border-radius: 10px;
+	box-shadow: 0 5px 6px #5b5b5b, 0 5px 6px #999999;
+	transform: translate(0px, -6px);
+}
+
+
+/*============ bagian karya ===========*/
+.karya{/*tata letak konten dari karya*/
+	display: flex;
+	justify-content:center;
+	margin-top: 50px;
+
+}
+.karya-item{
+	margin-left: -30px;
+}
+.isi-karya{
+	margin-left: 50px;
+	margin-top: 30px;
+	width: 90%;
+}
+.isi-karya h2{
+	margin-top: 50px;
+	padding-bottom: 20px;
+	font-size: 23px;
+	font-family: 'Roboto Serif', serif;
+
+}
+.isi-karya .deskripsi-raragraf{
+	font-size: 18px;
+	font-family: 'Nunito', sans-serif;
+	line-height: 22px;
+	padding-bottom: 30px;
+}
+
+
+/*tata letak untuk*/
+.jumlah{
+	background-color: white;
+	width: 90%;
+	border-radius: 10px;
+	box-shadow: 0 0 5px black;
+	padding: 20px 10px 20px 10px;
+}
+.isi-karya .jumlah{
+ 	display: flex;
+	justify-content: start;
+	
+}
+.jumlah-item{
+	display: flex;
+	justify-content: start;
+	margin: auto;
+	margin-left: -1px;
+	
+}
+.jumlah-item p{
+	font-family: 'Poppins', sans-serif;
+
+}
+.jumlah-item .ket{
+	margin-left: 7px;
+	font-size: 15px;
+
+}
+.ket .angka{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+/*========== gambar pada isi karya ===============*/
+.gambar{
+	margin-top: 40px;
+	height: 400px;
+}
+.isi-gambar img{
+	height: 300px;
+	width: 300px;
+	margin-left: 20px;
+}
+
+
+
+
+

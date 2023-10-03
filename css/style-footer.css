@@ -1,0 +1,65 @@
+
+/*===== footer =====*/
+.footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #eeeeee;
+	padding-top: 20px;	
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-top: 70px;
+}
+.footer .cards{
+	padding-top: 10px;
+	padding-left: 30px;
+	width: 450px;
+	height: 220px;
+	line-height: 25px;
+}
+.cards .icon i{
+ 	margin-top: 20px;
+ 
+}
+.cards .icon a{
+	color: black;
+	margin-right: 15px;
+	font-size: 20px;
+}
+.cards h3{
+	padding-bottom: 10px;
+	font-family: 'Roboto Serif', serif;	
+}
+.link{
+	margin-left: 50px;
+}
+.link ul li {
+	list-style: none;
+	margin-left: -38px;
+}
+.link ul li a {
+	color: black;
+}
+.alamat iframe{
+	height: 180px;
+	width: 280px;
+}
+/*============= bagian copyright================*/
+.copyright{
+	text-align: center;
+	height: 40px;
+	width: 100%;
+	padding-top: 20px;
+	background-color: #318CE7;
+	color: white;
+}
+
+/*bagian hover*/
+
+.link a:hover{
+	color: blue;
+	transform: scale(1.0);
+}
+.cards .icon i:hover{
+	color: #4382ea;
+}
